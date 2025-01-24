@@ -219,6 +219,11 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat-new
 
+# QSPA
+PRODUCT_PACKAGES += \
+    qspa_system.rc \
+    qspa_default.rc
+
 # QTI framework detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
